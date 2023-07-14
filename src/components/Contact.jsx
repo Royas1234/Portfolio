@@ -18,11 +18,11 @@ const Contact = () => {
        </div>
       <form method='POST' action='https://getform.io/f/fec9efdd-d598-48fc-9afa-5e4a6c3677a9' className='flex flex-col max-w-[600px] w-full gap-7 py-2'>
        <div className='flex flex-col gap-2'>
-        <p className='text-[1rem] text-[#7da0c4] uppercase tracking wide text-bold '>Your Name</p>
+        <p className='text-[1rem] text-[#7da0c4] uppercase tracking wide text-bold'>Your Name</p>
         <input type='text' name='name' placeholder='Name'className='w-full h-12 rounded-lg border-b-[1px] border-b-[#0a192f] bg-[#ccd6f6 px-4 active:outline-none  outline-none focus-visible:border-b-transparent duration-300 text-xl text-[black]' />
        </div>
        <div className='flex flex-col gap-2'>
-        <p className='text-[1rem] text-[#7da0c4] uppercase tracking wide text-bold '>Your Email</p>
+        <p className='text-[1rem] text-[#7da0c4] uppercase tracking wide text-bold'>Your Email</p>
         <input type='email' name='email' placeholder='Email'className='w-full h-12 rounded-lg border-b-[1px] border-b-[#0a192f] bg-[#ccd6f6 px-4 active:outline-none  outline-none focus-visible:border-b-transparent duration-300 text-xl text-[black]' />
        </div>
        <div className='flex flex-col gap-2'>
