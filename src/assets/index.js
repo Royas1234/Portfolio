@@ -11,11 +11,12 @@ import projectImg1 from '../assets/projectImg1.png'
 import projectImg2 from '../assets/projectImg2.png'
 import projectImg3 from '../assets/projectImg3.png'
 import projectImg4 from '../assets/ProjectImg4.png'
+import projectImg5 from '../assets/projectImg5.png'
 import workImg from '../assets/workImg.png'
 
 import logo from '../assets/logo.jpeg'
 
 export {
-  userPic,userPicx,userImg,cssLogo,githubLogo,htmlLogo,javascriptLogo,reactLogo,projectImg1,projectImg2,projectImg3,projectImg4,logo,nodeLogo,workImg
+  userPic,userPicx,userImg,cssLogo,githubLogo,htmlLogo,javascriptLogo,reactLogo,projectImg1,projectImg2,projectImg3,projectImg4,logo,nodeLogo,workImg,projectImg5
 
 };

@@ -3,9 +3,9 @@ import {projectImg1} from '../assets/index'
 import {projectImg2} from '../assets/index'
 import {projectImg3} from '../assets/index'
 import {projectImg4} from '../assets/index'
-
+import { projectImg5 } from '../assets/index'
 import {workImg} from '../assets/index'
-import { Link } from 'react-scroll'
+
 
 
 const Project = () => {
@@ -20,7 +20,7 @@ const Project = () => {
         </div>
 
         {/* cards */}
-        <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-10'>
+        <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-5'>
           
           <div style ={{backgroundImage: `url(${projectImg1})`}}
           className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-wrapper'>
@@ -30,10 +30,10 @@ const Project = () => {
                   React Js Application
               </span>
               <div className='pt-8 text-center'>
-                <a href=''>
+                <a href='https://loanwise-b-team.vercel.app/' target='_blank' rel='noopener noreferrer'>
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-large'>Demo</button>
                 </a>
-                <a href=''>
+                <a href='https://github.com/t1-loanwise/loanwise-b-team' target='_blank' rel='noopener noreferrer'>
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-large'>Code</button>
                 </a>
 
@@ -52,10 +52,10 @@ const Project = () => {
                   React Js Application
               </span>
               <div className='pt-8 text-center'>
-                <a href=''>
+                <a href='https://rad-nougat-825a91.netlify.app/' target='_blank' rel='noopener noreferrel'>
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-large'>Demo</button>
                 </a>
-                <a href=''>
+                <a href='https://github.com/Royas1234/StarWars/' target='_blank' rel='noopener noreferrel'>
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-large'>Code</button>
                 </a>
 
@@ -74,10 +74,10 @@ const Project = () => {
                   Website Clone
               </span>
               <div className='pt-8 text-center'>
-                <a href=''>
+                <a href='https://extraordinary-kitten-17940b.netlify.app/' target='_blank' rel='noopener noreferrer'>
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-large'>Demo</button>
                 </a>
-                <a href=''>
+                <a href='https://github.com/Royas1234/myCloneApp' target='_blank' rel='noopener noreferrer' >
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-large'>Code</button>
                 </a>
 
@@ -96,10 +96,10 @@ const Project = () => {
                   Js Application
               </span>
               <div className='pt-8 text-center'>
-                <a href=''>
+                <a href='https://superb-druid-6b4f5c.netlify.app/' target='_blank' rel='noopener noreferrer'>
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-large'>Demo</button>
                 </a>
-                <a href=''>
+                <a href='https://github.com/Royas1234/TO-DO-LIST' target='_blank' rel='noopener noreferrer'>
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-large'>Code</button>
                 </a>
 
@@ -118,10 +118,10 @@ const Project = () => {
                   Website Clone
               </span>
               <div className='pt-8 text-center'>
-                <a href=''>
+                <a href='https://radiant-paprenjak-5baf78.netlify.app/' target='_blank' rel='noopener noreferrer'>
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-large'>Demo</button>
                 </a>
-                <a href=''>
+                <a href='https://github.com/Royas1234/Search-Engine-Clone' target='_blank' rel='noopener noreferrer'>
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-large'>Code</button>
                 </a>
 
@@ -132,7 +132,7 @@ const Project = () => {
             </div>
           </div>
 
-          <div style ={{backgroundImage: `url(${projectImg3})`}}
+          <div style ={{backgroundImage: `url(${projectImg5})`}}
           className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-wrapper'>
             
             <div className='opacity-0 group-hover:opacity-100'>
@@ -140,10 +140,10 @@ const Project = () => {
                   React Js Application
               </span>
               <div className='pt-8 text-center'>
-                <a href=''>
+                <a href='https://ornate-puppy-2f15fb.netlify.app/' target='_blank' rel='noopener noreferrer'>
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-large'>Demo</button>
                 </a>
-                <a href=''>
+                <a href='https://github.com/Royas1234/Replica-Movie-Site'target='_blank' rel='noopener noreferrer'>
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-large'>Code</button>
                 </a>
 

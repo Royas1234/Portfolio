@@ -44,8 +44,8 @@
 .content-wrapper:hover{
   background-image: linear-gradient(
     to right, 
-    rgba(112,157,255,0.8),
-    hsla(240, 28%, 8%, 0.9)
+    rgba(49,134,226),
+    hsla(242,74%,61%, 0.8)
   )!important;
 }
 .project-card{
@@ -53,28 +53,4 @@
   grid-template-columns: repeat(3,1fr);
   grid-gap: 40px;
   width: 500px;
-}
-/*  */
-.btn{
-  margin: 0.5em;
-  color: white;
-  background: #000;
-  color: #fff;
-  border: none;
-  border-radius: 8px;
-  position: relative;
-  z-index: 1;
-  overflow: hidden;
-}
-.buttons button:after {
-  content: "";
-  background: #fff;
-  position: absolute;
-  z-index: -1;
-  left: -20%;
-  right: -20%;
-  top: 0;
-  bottom: 0;
-  transform: skew(-45deg) scaleX(0);
-  transition: all .5s;
 }

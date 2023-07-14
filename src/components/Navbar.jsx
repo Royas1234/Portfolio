@@ -3,7 +3,6 @@ import {navData} from '../Data/data.js'
 import '../index.css'
 import {FaBars,FaTimes,FaGithub,FaLinkedin,FaTwitter,FaInstagram} 
 from 'react-icons/fa'
-import {HiOutlineMail} from 'react-icons/hi'
 import { Link } from 'react-scroll'
 
 const Navbar = () => {
@@ -23,7 +22,7 @@ const Navbar = () => {
         <ul className='hidden md:flex'>
           {navData.map(({id, title,link}) => (
           <li key={id} className='hover:text-[#ff0144] duration-500 text-[1.2rem]' >
-            <Link activeClass='active' to={link} smoot={true} offset={-70} duration={500}>{title}</Link>
+            <Link activeClass='active' to={link} smooth={true} offset={-70} duration={500}>{title}</Link>
           </li>
           ))}
         </ul>
@@ -40,7 +39,7 @@ const Navbar = () => {
         <ul className={!menu ? 'hidden' : 'absolute top-0 left-0 w-full h-screen bg-[#0a192f] flex flex-col justify-center items-center'}>
           {navData.map(({id, title,link}) => (
           <li key={id} className='py-6 text-4xl hover:text-[#ff0144] duration-500'>
-             <Link activeClass='active' to={link} smoot={true} offset={-70} duration={500}>{title}</Link>
+             <Link onClick={handleleClick} activeClass='active' to={link} smoot={true} offset={-70} duration={500}>{title}</Link>
           </li>
           ))}
         </ul>
