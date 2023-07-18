@@ -10,7 +10,7 @@ import {workImg} from '../assets/index'
 
 const Project = () => {
   return (
-    <div name='project' className='w-full md:h-screen  px-[5rem]  bg-[#0a192f] border-t-[1px] border-t-[#7da0c4] text-gray-200'>
+    <div name='project' className='w-full md:h-screen   bg-[#0a192f] border-t-[1px] border-t-[#7da0c4] text-gray-200'>
       <div className='max-w-[1000px] p-4 flex flex-col mx-auto justify-start w-full h-full'>
         <div className='pb-8'>
           <p className='text-4xl font-bold inline border-b-4 border-[#f36e8f]'>
@@ -52,10 +52,10 @@ const Project = () => {
                   React Js Application
               </span>
               <div className='pt-8 text-center'>
-                <a href='https://rad-nougat-825a91.netlify.app/' target='_blank' rel='noopener noreferrel'>
+                <a href='https://rad-nougat-825a91.netlify.app/' target='_blank' rel='noreferrer'>
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-large'>Demo</button>
                 </a>
-                <a href='https://github.com/Royas1234/StarWars/' target='_blank' rel='noopener noreferrel'>
+                <a href='https://github.com/Royas1234/StarWars/' target='_blank' rel='noreferrer'>
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-large'>Code</button>
                 </a>
 
@@ -96,10 +96,10 @@ const Project = () => {
                   Js Application
               </span>
               <div className='pt-8 text-center'>
-                <a href='https://superb-druid-6b4f5c.netlify.app/' target='_blank' rel='noopener noreferrer'>
+                <a href='https://superb-druid-6b4f5c.netlify.app/' target='_blank' rel='noreferrer'>
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-large'>Demo</button>
                 </a>
-                <a href='https://github.com/Royas1234/TO-DO-LIST' target='_blank' rel='noopener noreferrer'>
+                <a href='https://github.com/Royas1234/TO-DO-LIST' target='_blank' rel='noreferrer'>
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-large'>Code</button>
                 </a>
 

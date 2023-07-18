@@ -50,22 +50,22 @@ const Navbar = () => {
       <div className='hidden md:flex fixed flex-col top-[50%] left-0'>
         <ul>
           <li className='w-[160px] h-[50px] flex  items-center justify-between bg-[#0a66c2]  mb-2 ml-[-110px] hover:ml-[-10px] duration-300'>
-              <a className= 'flex justify-between items-center w-full text-gray-300 text-xl' href='https://www.linkedin.com/in/rosheedat-adetunji-855a68219/' target='_blank'>
+              <a className= 'flex justify-between items-center w-full text-gray-300 text-xl' href='https://www.linkedin.com/in/rosheedat-adetunji-855a68219/' target='_blank' rel='noreferrer'>
                 LinkedIn <FaLinkedin size={30}/>
               </a>
           </li>
           <li className='w-[160px] h-[50px] flex justify-between items-center mb-2 ml-[-110px] hover:ml-[-10px] duration-300 bg-[#333]'>
-                <a className= 'flex justify-between items-center w-full text-gray-300 gap-6 text-xl' href='https://github.com/Royas1234' target='_blank'>
+                <a className= 'flex justify-between items-center w-full text-gray-300 gap-6 text-xl' href='https://github.com/Royas1234' target='_blank' rel='noreferrer'>
                   Github <FaGithub size={30}/>
                 </a>
           </li>
           <li className='w-[160px] h-[50px] flex justify-between items-center  mb-2  ml-[-110px] hover:ml-[-10px] duration-300 bg-[#0a66c2]'>
-                <a className= 'flex justify-between items-center w-full text-gray-300 gap-6 text-xl' href='https://twitter.com/Rosheedah_Baby' target='_blank'>
+                <a className= 'flex justify-between items-center w-full text-gray-300 gap-6 text-xl' href='https://twitter.com/Rosheedah_Baby' target='_blank' rel='noreferrer'>
                   Twitter <FaTwitter size={30}/>
                 </a>
             </li>
             <li className='w-[160px] h-[50px] flex justify-between items-center  mb-2  ml-[-110px] hover:ml-[-10px] duration-300 bg-[#ce1940]'>
-                <a className= 'flex justify-between items-center w-full text-gray-300 gap-6 text-xl' href='https://www.instagram.com/oyindamolarosheedat11/' target='_blank'>
+                <a className= 'flex justify-between items-center w-full text-gray-300 gap-6 text-xl' href='https://www.instagram.com/oyindamolarosheedat11/' target='_blank' rel='noreferrer'>
                   Instagram <FaInstagram size={30}/>
                 </a>
             </li>

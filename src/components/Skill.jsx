@@ -5,12 +5,11 @@ import {htmlLogo} from '../assets/index'
 import {javascriptLogo} from '../assets/index'
 import {reactLogo} from '../assets/index'
 import {nodeLogo}from '../assets/index'
-import { Link } from 'react-scroll'
 
 const Skill = () => {
   return (
-    <div name='skills' className='w-full px-[5rem] h-[700px] bg-[#0a192f] text-gray-200 border-t-[1px] border-t-[#7da0c4]'> 
-      <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
+    <div name='skills' className='w-full mx-auto  h-[700px] bg-[#0a192f] text-gray-200 border-t-[1px] border-t-[#7da0c4]'> 
+      <div className='max-w-[1000px]  p-4 flex flex-col mx-auto justify-center w-full h-full'>
         <div>
           <p className='text-4xl font-bold inline border-b-4 border-[#f36e8f]'>Skills</p>
           <p className='py-4 text-xl'>Technologies i am familiar with and i have worked with</p>
