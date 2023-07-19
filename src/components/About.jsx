@@ -5,11 +5,11 @@ const About = () => {
   return (
     <div name='about' className='w-full min-h-screen bg-[#1b324c] text-gray-200'>
       <div className='max-w-[1000px] py-10 p-4 mx-auto flex flex-col justify-start '>
-        <div className='sm:text-left text-center pb-8 '>
-          <p className='text-4xl font-bold inline border-b-4 border-[#ff0144]'>About Me</p>
+        <div className='text-left pb-8 '>
+          <p className='text-4xl font-bold inline border-b-4 border-[#f36e8f]'>About Me</p>
         </div>
 
-        <div className='flex flex-col-reverse  items-center lg:items-center lg:justify-around lg:flex-row lg:g-40'>
+        <div className='flex flex-col-reverse items-center lg:items-center lg:justify-around lg:flex-row lg:g-40'>
           <div className='flex-1'>
             <p className='text-gray-200 font-normal leading-relaxed lg:leading-loose text-[1rem] md:text-[1.1rem] lg:text-[1.3rem] mt-6 mr-20'>
               Hello, I'm Adetunji Rosheedat Oyindamola, and I'm thrilled to share a bit about myself. With a background in
